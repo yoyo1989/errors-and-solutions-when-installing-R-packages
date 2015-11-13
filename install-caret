@@ -1,0 +1,318 @@
+> install.packages("caret")
+also installing the dependencies ¡®iterators¡¯, ¡®foreach¡¯
+
+
+  There are binary versions available but the source versions are later:
+          binary source needs_compilation
+iterators  1.0.7  1.0.8             FALSE
+foreach    1.4.2  1.4.3             FALSE
+caret     6.0-52 6.0-58              TRUE
+
+Do you want to install from sources the package which needs compilation?
+y/n: y
+installing the source packages ¡®iterators¡¯, ¡®foreach¡¯, ¡®caret¡¯
+
+trying URL 'http://cran.rstudio.com/src/contrib/iterators_1.0.8.tar.gz'
+Content type 'application/x-gzip' length 290412 bytes (283 KB)
+==================================================
+downloaded 283 KB
+
+trying URL 'http://cran.rstudio.com/src/contrib/foreach_1.4.3.tar.gz'
+Content type 'application/x-gzip' length 359787 bytes (351 KB)
+==================================================
+downloaded 351 KB
+
+trying URL 'http://cran.rstudio.com/src/contrib/caret_6.0-58.tar.gz'
+Content type 'application/x-gzip' length 4010496 bytes (3.8 MB)
+==================================================
+downloaded 3.8 MB
+
+* installing *source* package ¡®iterators¡¯ ...
+** package ¡®iterators¡¯ successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (iterators)
+* installing *source* package ¡®foreach¡¯ ...
+** package ¡®foreach¡¯ successfully unpacked and MD5 sums checked
+** R
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (foreach)
+* installing *source* package ¡®caret¡¯ ...
+** package ¡®caret¡¯ successfully unpacked and MD5 sums checked
+** libs
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include    -fPIC  -mtune=core2 -g -O2  -c caret.c -o caret.o
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -L/usr/local/lib -o caret.so caret.o -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
+installing to /Library/Frameworks/R.framework/Versions/3.2/Resources/library/caret/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  there is no package called ¡®lme4¡¯
+ERROR: lazy loading failed for package ¡®caret¡¯
+* removing ¡®/Library/Frameworks/R.framework/Versions/3.2/Resources/library/caret¡¯
+Warning in install.packages :
+  installation of package ¡®caret¡¯ had non-zero exit status
+
+The downloaded source packages are in
+	¡®/private/var/folders/_z/r1g7s0sd3q7373j5l1hzjtn40000gn/T/Rtmpnlg1j7/downloaded_packages¡¯
+> library(caret)
+Error in library(caret) : there is no package called ¡®caret¡¯
+> install.packages("caret")
+
+  There is a binary version available but the source version is later:
+      binary source needs_compilation
+caret 6.0-52 6.0-58              TRUE
+
+Do you want to install from sources the package which needs compilation?
+y/n: n
+trying URL 'http://cran.rstudio.com/bin/macosx/contrib/3.2/caret_6.0-52.tgz'
+Content type 'application/x-gzip' length 4111347 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+
+The downloaded binary packages are in
+	/var/folders/_z/r1g7s0sd3q7373j5l1hzjtn40000gn/T//Rtmpnlg1j7/downloaded_packages
+> library(caret)
+Loading required package: lattice
+Loading required package: ggplot2
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  there is no package called ¡®BradleyTerry2¡¯
+Error: package or namespace load failed for ¡®caret¡¯
+> install.packages('caret', repos='http://cran.rstudio.com/')
+
+  There is a binary version available but the source version is later:
+      binary source needs_compilation
+caret 6.0-52 6.0-58              TRUE
+
+Do you want to install from sources the package which needs compilation?
+y/n: y
+installing the source package ¡®caret¡¯
+
+trying URL 'http://cran.rstudio.com/src/contrib/caret_6.0-58.tar.gz'
+Content type 'application/x-gzip' length 4010496 bytes (3.8 MB)
+==================================================
+downloaded 3.8 MB
+
+* installing *source* package ¡®caret¡¯ ...
+** package ¡®caret¡¯ successfully unpacked and MD5 sums checked
+** libs
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include    -fPIC  -mtune=core2 -g -O2  -c caret.c -o caret.o
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -L/usr/local/lib -o caret.so caret.o -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
+installing to /Library/Frameworks/R.framework/Versions/3.2/Resources/library/caret/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  there is no package called ¡®lme4¡¯
+ERROR: lazy loading failed for package ¡®caret¡¯
+* removing ¡®/Library/Frameworks/R.framework/Versions/3.2/Resources/library/caret¡¯
+* restoring previous ¡®/Library/Frameworks/R.framework/Versions/3.2/Resources/library/caret¡¯
+Warning in install.packages :
+  installation of package ¡®caret¡¯ had non-zero exit status
+
+The downloaded source packages are in
+	¡®/private/var/folders/_z/r1g7s0sd3q7373j5l1hzjtn40000gn/T/Rtmpnlg1j7/downloaded_packages¡¯
+> install.packages("lme4")
+also installing the dependency ¡®RcppEigen¡¯
+
+
+  There are binary versions available but the source versions are later:
+             binary    source needs_compilation
+RcppEigen 0.3.2.5.0 0.3.2.5.1              TRUE
+lme4          1.1-9    1.1-10              TRUE
+
+Do you want to install from sources the packages which need compilation?
+y/n: y
+installing the source packages ¡®RcppEigen¡¯, ¡®lme4¡¯
+
+trying URL 'http://cran.rstudio.com/src/contrib/RcppEigen_0.3.2.5.1.tar.gz'
+Content type 'application/x-gzip' length 1235892 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'http://cran.rstudio.com/src/contrib/lme4_1.1-10.tar.gz'
+Content type 'application/x-gzip' length 3687247 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+* installing *source* package ¡®RcppEigen¡¯ ...
+** package ¡®RcppEigen¡¯ successfully unpacked and MD5 sums checked
+** libs
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include"  -I../inst/include -fPIC  -mtune=core2 -g -O2  -c RcppEigen.cpp -o RcppEigen.o
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include"  -I../inst/include -fPIC  -mtune=core2 -g -O2  -c RcppExports.cpp -o RcppExports.o
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include"  -I../inst/include -fPIC  -mtune=core2 -g -O2  -c fastLm.cpp -o fastLm.o
+llvm-g++-4.2 -arch x86_64 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -L/usr/local/lib -o RcppEigen.so RcppEigen.o RcppExports.o fastLm.o -L/Library/Frameworks/R.framework/Resources/lib -lRlapack -L/Library/Frameworks/R.framework/Resources/lib -lRblas -L/usr/local/lib/gcc/i686-apple-darwin8/4.2.3/x86_64 -L/usr/local/lib/x86_64 -L/usr/local/lib/gcc/i686-apple-darwin8/4.2.3 -lgfortran -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
+ld: warning: directory not found for option '-L/usr/local/lib/gcc/i686-apple-darwin8/4.2.3/x86_64'
+ld: warning: directory not found for option '-L/usr/local/lib/x86_64'
+ld: warning: directory not found for option '-L/usr/local/lib/gcc/i686-apple-darwin8/4.2.3'
+ld: library not found for -lgfortran
+collect2: ld returned 1 exit status
+make: *** [RcppEigen.so] Error 1
+ERROR: compilation failed for package ¡®RcppEigen¡¯
+* removing ¡®/Library/Frameworks/R.framework/Versions/3.2/Resources/library/RcppEigen¡¯
+Warning in install.packages :
+  installation of package ¡®RcppEigen¡¯ had non-zero exit status
+ERROR: dependency ¡®RcppEigen¡¯ is not available for package ¡®lme4¡¯
+* removing ¡®/Library/Frameworks/R.framework/Versions/3.2/Resources/library/lme4¡¯
+Warning in install.packages :
+  installation of package ¡®lme4¡¯ had non-zero exit status
+
+The downloaded source packages are in
+	¡®/private/var/folders/_z/r1g7s0sd3q7373j5l1hzjtn40000gn/T/Rtmpnlg1j7/downloaded_packages¡¯
+> install.packages("RcppEigen")
+
+  There is a binary version available but the source version is later:
+             binary    source needs_compilation
+RcppEigen 0.3.2.5.0 0.3.2.5.1              TRUE
+
+Do you want to install from sources the package which needs compilation?
+y/n: y
+installing the source package ¡®RcppEigen¡¯
+
+trying URL 'http://cran.rstudio.com/src/contrib/RcppEigen_0.3.2.5.1.tar.gz'
+Content type 'application/x-gzip' length 1235892 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+* installing *source* package ¡®RcppEigen¡¯ ...
+** package ¡®RcppEigen¡¯ successfully unpacked and MD5 sums checked
+** libs
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include"  -I../inst/include -fPIC  -mtune=core2 -g -O2  -c RcppEigen.cpp -o RcppEigen.o
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include"  -I../inst/include -fPIC  -mtune=core2 -g -O2  -c RcppExports.cpp -o RcppExports.o
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include"  -I../inst/include -fPIC  -mtune=core2 -g -O2  -c fastLm.cpp -o fastLm.o
+llvm-g++-4.2 -arch x86_64 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -L/usr/local/lib -o RcppEigen.so RcppEigen.o RcppExports.o fastLm.o -L/Library/Frameworks/R.framework/Resources/lib -lRlapack -L/Library/Frameworks/R.framework/Resources/lib -lRblas -L/usr/local/lib/gcc/i686-apple-darwin8/4.2.3/x86_64 -L/usr/local/lib/x86_64 -L/usr/local/lib/gcc/i686-apple-darwin8/4.2.3 -lgfortran -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
+ld: warning: directory not found for option '-L/usr/local/lib/gcc/i686-apple-darwin8/4.2.3/x86_64'
+ld: warning: directory not found for option '-L/usr/local/lib/x86_64'
+ld: warning: directory not found for option '-L/usr/local/lib/gcc/i686-apple-darwin8/4.2.3'
+ld: library not found for -lgfortran
+collect2: ld returned 1 exit status
+make: *** [RcppEigen.so] Error 1
+ERROR: compilation failed for package ¡®RcppEigen¡¯
+* removing ¡®/Library/Frameworks/R.framework/Versions/3.2/Resources/library/RcppEigen¡¯
+Warning in install.packages :
+  installation of package ¡®RcppEigen¡¯ had non-zero exit status
+
+The downloaded source packages are in
+	¡®/private/var/folders/_z/r1g7s0sd3q7373j5l1hzjtn40000gn/T/Rtmpnlg1j7/downloaded_packages¡¯
+> install.packages("lme4",dependencies = c("Depends", "Imports"))
+
+  There is a binary version available but the source version is later:
+     binary source needs_compilation
+lme4  1.1-9 1.1-10              TRUE
+
+Do you want to install from sources the package which needs compilation?
+y/n: y
+installing the source package ¡®lme4¡¯
+
+trying URL 'http://cran.rstudio.com/src/contrib/lme4_1.1-10.tar.gz'
+Content type 'application/x-gzip' length 3687247 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+ERROR: dependency ¡®RcppEigen¡¯ is not available for package ¡®lme4¡¯
+* removing ¡®/Library/Frameworks/R.framework/Versions/3.2/Resources/library/lme4¡¯
+Warning in install.packages :
+  installation of package ¡®lme4¡¯ had non-zero exit status
+
+The downloaded source packages are in
+	¡®/private/var/folders/_z/r1g7s0sd3q7373j5l1hzjtn40000gn/T/Rtmpnlg1j7/downloaded_packages¡¯
+> library("devtools")
+Warning message:
+package ¡®devtools¡¯ was built under R version 3.2.2 
+> install_github("lme4",user="lme4")
+Downloading GitHub repo lme4/lme4@master
+Installing lme4
+Installing 1 packages: RcppEigen
+
+  There is a binary version available (and will be installed) but the
+  source version is later:
+             binary    source
+RcppEigen 0.3.2.5.0 0.3.2.5.1
+
+'/Library/Frameworks/R.framework/Resources/bin/R' --no-site-file --no-environ  \
+  --no-save --no-restore CMD INSTALL  \
+  '/private/var/folders/_z/r1g7s0sd3q7373j5l1hzjtn40000gn/T/Rtmpnlg1j7/devtools18a7d2f931f/lme4-lme4-6670a7f'  \
+  --library='/Library/Frameworks/R.framework/Versions/3.2/Resources/library'  \
+  --install-tests 
+
+* installing *source* package ¡®lme4¡¯ ...
+** libs
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include" -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fPIC  -mtune=core2 -g -O2  -c external.cpp -o external.o
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include" -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fPIC  -mtune=core2 -g -O2  -c glmFamily.cpp -o glmFamily.o
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include" -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fPIC  -mtune=core2 -g -O2  -c mcmcsamp.cpp -o mcmcsamp.o
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include" -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fPIC  -mtune=core2 -g -O2  -c optimizer.cpp -o optimizer.o
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include" -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fPIC  -mtune=core2 -g -O2  -c predModule.cpp -o predModule.o
+llvm-g++-4.2 -arch x86_64 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/Rcpp/include" -I"/Library/Frameworks/R.framework/Versions/3.2/Resources/library/RcppEigen/include"  -DNDEBUG -DEIGEN_DONT_VECTORIZE -fPIC  -mtune=core2 -g -O2  -c respModule.cpp -o respModule.o
+llvm-g++-4.2 -arch x86_64 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -L/usr/local/lib -o lme4.so external.o glmFamily.o mcmcsamp.o optimizer.o predModule.o respModule.o -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
+installing to /Library/Frameworks/R.framework/Versions/3.2/Resources/library/lme4/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** tests
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+   ¡®lmerperf.Rmd¡¯ 
+   ¡®lmer.Rnw¡¯ using ¡®UTF-8¡¯ 
+   ¡®PLSvGLS.Rnw¡¯ 
+   ¡®Theory.Rnw¡¯ 
+** testing if installed package can be loaded
+* DONE (lme4)
+Warning message:
+Username parameter is deprecated. Please use lme4/lme4 
+> install.packages("caret")
+
+  There is a binary version available but the source version is later:
+      binary source needs_compilation
+caret 6.0-52 6.0-58              TRUE
+
+Do you want to install from sources the package which needs compilation?
+y/n: y
+installing the source package ¡®caret¡¯
+
+trying URL 'http://cran.rstudio.com/src/contrib/caret_6.0-58.tar.gz'
+Content type 'application/x-gzip' length 4010496 bytes (3.8 MB)
+==================================================
+downloaded 3.8 MB
+
+* installing *source* package ¡®caret¡¯ ...
+** package ¡®caret¡¯ successfully unpacked and MD5 sums checked
+** libs
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include    -fPIC  -mtune=core2 -g -O2  -c caret.c -o caret.o
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -L/usr/local/lib -o caret.so caret.o -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
+installing to /Library/Frameworks/R.framework/Versions/3.2/Resources/library/caret/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Note: the specification for S3 class ¡°family¡± in package ¡®MatrixModels¡¯ seems equivalent to one from package ¡®lme4¡¯: not turning on duplicate class definitions for this class.
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+Note: the specification for S3 class ¡°family¡± in package ¡®MatrixModels¡¯ seems equivalent to one from package ¡®lme4¡¯: not turning on duplicate class definitions for this class.
+* DONE (caret)
+
+The downloaded source packages are in
+	¡®/private/var/folders/_z/r1g7s0sd3q7373j5l1hzjtn40000gn/T/Rtmpnlg1j7/downloaded_packages¡¯
+> library(caret)
