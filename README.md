@@ -4,7 +4,9 @@ Keep track of the errors and solutions when I install R packages.
 
 In particular, for those errors that I couldn't find a ready-to-use solution online. See below for a summary.
 
-1. takes me 20 min to install 'caret'. Below is a key command. See the related file for detail.
+1. takes me 20 min to install 'caret'. Below is a key command. See related file for detail.
 install_github("lme4",user="lme4")
 
-2. To install 'randomForest', I could not install from sources.
+2. To install 'randomForest', I could not install from sources. See related file for detail.
+
+3. To use fancyRpartPlot in package rattle, I need to install package rpart.plot as well.
