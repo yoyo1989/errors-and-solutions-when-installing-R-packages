@@ -1,0 +1,57 @@
+> install.packages("randomForest")
+
+  There is a binary version available but the source
+  version is later:
+             binary source needs_compilation
+randomForest 4.6-10 4.6-12              TRUE
+
+Do you want to install from sources the package which needs compilation?
+y/n: y
+installing the source package ‘randomForest’
+
+trying URL 'http://cran.rstudio.com/src/contrib/randomForest_4.6-12.tar.gz'
+Content type 'application/x-gzip' length 79566 bytes (77 KB)
+==================================================
+downloaded 77 KB
+
+* installing *source* package ‘randomForest’ ...
+** package ‘randomForest’ successfully unpacked and MD5 sums checked
+** libs
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include    -fPIC  -mtune=core2 -g -O2  -c classTree.c -o classTree.o
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include    -fPIC  -mtune=core2 -g -O2  -c regTree.c -o regTree.o
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include    -fPIC  -mtune=core2 -g -O2  -c regrf.c -o regrf.o
+llvm-gcc-4.2 -arch x86_64 -std=gnu99 -I/Library/Frameworks/R.framework/Resources/include -DNDEBUG  -I/usr/local/include    -fPIC  -mtune=core2 -g -O2  -c rf.c -o rf.o
+gfortran-4.2 -arch x86_64   -fPIC  -g -O2  -c rfsub.f -o rfsub.o
+make: gfortran-4.2: No such file or directory
+make: *** [rfsub.o] Error 1
+ERROR: compilation failed for package ‘randomForest’
+* removing ‘/Library/Frameworks/R.framework/Versions/3.2/Resources/library/randomForest’
+Warning in install.packages :
+  installation of package ‘randomForest’ had non-zero exit status
+
+The downloaded source packages are in
+	‘/private/var/folders/_z/r1g7s0sd3q7373j5l1hzjtn40000gn/T/Rtmp5DOBtR/downloaded_packages’
+> library("randomForest")
+Error in library("randomForest") : 
+  there is no package called ‘randomForest’
+  
+> install.packages("randomForest")
+
+  There is a binary version available but the source
+  version is later:
+             binary source needs_compilation
+randomForest 4.6-10 4.6-12              TRUE
+
+Do you want to install from sources the package which needs compilation?
+y/n: n
+trying URL 'http://cran.rstudio.com/bin/macosx/contrib/3.2/randomForest_4.6-10.tgz'
+Content type 'application/x-gzip' length 157577 bytes (153 KB)
+==================================================
+downloaded 153 KB
+
+
+The downloaded binary packages are in
+	/var/folders/_z/r1g7s0sd3q7373j5l1hzjtn40000gn/T//Rtmp5DOBtR/downloaded_packages
+> library(randomForest)
+randomForest 4.6-10
+Type rfNews() to see new features/changes/bug fixes.
